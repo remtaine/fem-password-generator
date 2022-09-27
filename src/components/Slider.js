@@ -5,20 +5,25 @@ function Slider() {
   return (
     <div className="">
       <div className="flex justify-between">
-        <label for="length" className="">
+        <label htmlFor="length" className="">
           Character Length
         </label>
         {/* TODO make # responsive */}
-        <span className="text-fem-500">10</span>
+        <span className="text-fem-500">{length}</span>
       </div>
       <input
         type="range"
         id="length"
         min="0"
         max="20"
-        // value="10"
+        defaultValue="10"
         // step="1"
-        className="w-full text-fem-500 bg-fem-500 appearance-none h-1 py-[2px] cursor-pointer "
+        // style={{ fill-color: "red"  }}
+        onInput={(evt) => {
+          setLength(evt.target.value);
+          // setLength(this.value);
+        }}
+        className="w-full accent-fem-500 py-[2px] cursor-pointer "
       />
     </div>
   );
