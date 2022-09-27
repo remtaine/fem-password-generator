@@ -27,7 +27,7 @@ function Checkbox() {
       }
     >
       <i
-        class={
+        className={
           "fa-solid fa-check text-[8px] text-fem-400" +
           " " +
           (checked ? "block" : "hidden")
