@@ -10,7 +10,7 @@ function App() {
         <div className="bg-fem-100 flex justify-between pl-4 pr-2 items-center shadow ">
           <span className="">P4$5W0rD!1</span>
           <button className="p-2">
-            <i class="fa-regular fa-copy text-fem-500"></i>
+            <i className="fa-regular fa-copy text-fem-500"></i>
           </button>
         </div>
         <div className="bg-fem-100 shadow px-4 py-4 flex flex-col gap-2">
@@ -30,7 +30,7 @@ function App() {
           </div>
           <button className="bg-fem-500 text-fem-400 hover:bg-fem-100 outline-fem-500 outline outline-1 duration-300 hover:text-fem-500 uppercase flex items-center justify-center w-full gap-2 py-1 px-2">
             <span className="">Generate</span>
-            <i class="fa-solid fa-arrow-right text-xs"></i>
+            <i className="fa-solid fa-arrow-right text-xs"></i>
           </button>
         </div>
       </main>
