@@ -44,8 +44,13 @@ module.exports = {
         88: "22rem",
       },
       fontFamily: {
-        barlow: ["Barlow", "sans-serif"],
-        fraunces: ["Fraunces", "serif"],
+        JetBrains: [
+          "JetBrains",
+          "JetBrainsItalic",
+          "JetBrainsBold",
+          "JetBrainsBoldItalic",
+          "sans-serif",
+        ],
       },
       transitionDuration: {
         400: "400ms",
