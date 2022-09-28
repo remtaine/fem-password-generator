@@ -23,7 +23,7 @@ function Slider() {
           setLength(evt.target.value);
           // setLength(this.value);
         }}
-        className="w-full accent-fem-500 py-[2px] cursor-pointer "
+        className="w-full accent-fem-500 py-[2px] cursor-pointer pt-1"
       />
     </div>
   );

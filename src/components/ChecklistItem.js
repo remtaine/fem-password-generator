@@ -4,7 +4,7 @@ import Checkbox from "./ui/Checkbox";
 
 function ChecklistItem(props) {
   return (
-    <div className="flex items-center gap-4 pl-0">
+    <div className="flex items-center gap-2 pl-0">
       <Checkbox />
       <span className="text-xs">{props.children}</span>
     </div>
