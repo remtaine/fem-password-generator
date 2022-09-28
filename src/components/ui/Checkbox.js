@@ -14,6 +14,7 @@ function Checkbox() {
         " " +
         (checked ? "" : "")
       }
+      defaultChecked
     />
 
     // TODO change border to outline
