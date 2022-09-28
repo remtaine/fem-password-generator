@@ -1,10 +1,25 @@
-/* @font-face {
-  font-family: "Lato";
-  src: local("Lato"), url(./fonts/Lato-Regular.otf) format("opentype");
+@font-face {
+  font-family: "JetBrains";
+  src: local("JetBrains"),
+    url(./fonts/JetBrainsMono-VariableFont_wght.ttf) format("opentype");
+}
+@font-face {
+  font-family: "JetBrainsItalic";
+  font-style: italic;
+  src: local("JetBrains"),
+    url(./fonts/JetBrainsMono-Italic-VariableFont_wght.ttf) format("opentype");
+}
+@font-face {
+  font-family: "JetBrainsBold";
+  font-weight: 900;
+  src: local("JetBrains"),
+    url(./fonts/static/JetBrainsMono-Bold.ttf) format("opentype");
 }
 
 @font-face {
-  font-family: "Lato";
+  font-family: "JetBrainsBoldItalic";
   font-weight: 900;
-  src: local("Lato"), url(./fonts/Lato-Bold.otf) format("opentype");
-} */
+  font-style: italic;
+  src: local("JetBrains"),
+    url(./fonts/static/JetBrainsMono-BoldItalic.ttf) format("opentype");
+}
