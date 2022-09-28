@@ -14,8 +14,8 @@ function Slider() {
       <input
         type="range"
         id="length"
-        min="0"
-        max="20"
+        min="4"
+        max="16"
         defaultValue="10"
         // step="1"
         // style={{ fill-color: "red"  }}
